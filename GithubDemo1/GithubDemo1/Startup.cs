@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 
 namespace GithubDemo1
 {
+    // creating a shelveset
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -22,7 +23,7 @@ namespace GithubDemo1
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+       
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
